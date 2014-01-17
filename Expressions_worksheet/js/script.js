@@ -6,4 +6,4 @@ var area = width * height;  //calculates with the infor
 //console.log(area);  //prints it to the console
 
 alert("The area of your rectangle is " + area );
-console.log (area);
+console.log ("The area of your rectangle is " + area);
