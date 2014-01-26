@@ -1,7 +1,15 @@
 //John Spruell 26 January 2014 Assignment: Conditionals
 
 
-//This calculator calculates how many wood walls can me made with wood found in a video game//
+//This calculator calculates if you have enough Wood Walls to build a shelter in a video game.//
+
+var inventoryWood
+var woodPlanks
+var woodWalls
+var minWalls = 16
+
+//uf
+
 
 var wood = prompt("How much wood do you currently have in your inventory?")
 var woodPlanks = prompt("How many wood planks do you cuurently have in your inventory?")
