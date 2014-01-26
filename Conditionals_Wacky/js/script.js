@@ -8,3 +8,10 @@ var omelettes = cheese * servingsOfsteak * eggs  ;  //calculates with the infor
 
 alert("You can make the following number of omelettes: "+ omelettes );
 console.log ("You can make the following number of omelettes: " + omelettes);
+
+
+//This calculator calculates how many wood walls can me made with wood found in a video game//
+
+var wood = prompt("How much wood do you currently have in your inventory?")
+var woodPlanks =prompt("How many wood planks do you cuurently have in your inventory?")
+var
