@@ -1,4 +1,4 @@
-//John Spruell 16 January 2014 Expressions Worksheet
+//John Spruell 26 January 2014 Assignment: Conditionals
 
 var eggs = prompt("Since we have a family to feed, we need to make steak and cheese omelettes! \nPlease enter how many eggs you have");
 var cheese = prompt("How many slices of cheese do you have? :");
