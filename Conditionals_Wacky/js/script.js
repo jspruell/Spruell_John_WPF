@@ -23,7 +23,3 @@ if(woodCeiling < 1) {
 	alert ("You Have Enough Walls and Ceiling to for a Wood Shelter!")
 } 
 	
-
-
-//if you have 4 Wood Walls and 1 Wood Ceiling you can make a Wooden Shelter//
-//

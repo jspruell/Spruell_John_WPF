@@ -22,8 +22,3 @@ if(diapers < 20) {
 	console.log ("You Have Enough wipes and diapers to support a baby's needs")
 	alert ("You Have Enough wipes and diapers to support a baby's needs")
 } 
-	
-
-
-//if you have 4 Wood Walls and 1 Wood Ceiling you can make a Wooden Shelter//
-//

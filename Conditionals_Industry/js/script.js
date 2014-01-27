@@ -22,8 +22,3 @@ if(administrators < 1) {
 	console.log ("You Have enough users online to require an administrator!")
 	alert ("You Have enough users online to require an administrator!")
 } 
-	
-
-
-//if you have 4 Wood Walls and 1 Wood Ceiling you can make a Wooden Shelter//
-//
