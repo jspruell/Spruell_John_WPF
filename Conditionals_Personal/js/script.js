@@ -3,9 +3,9 @@
 
 //This calculator calculates if you have enough diapers and baby wipes on hand to support an baby's needs for a 24 hour period.
 
-//User inputs ammount of Wood ceilings currently in his/her inventory
+//User inputs ammount of clean diapers in his/her home.
 var diapers = prompt("How many Diapers do you have?");
-//User inputs ammount of Wood Walls currently in his/her inventory
+//User inputs ammount of Baby Wipes currently in his/her home.
 var wipes = prompt("How many Packs of Baby Wipes do you have?");
 
 //if Ceiling is less than 1 and Walls is less than 4.
