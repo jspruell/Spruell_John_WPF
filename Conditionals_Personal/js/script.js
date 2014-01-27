@@ -1,4 +1,4 @@
-//John Spruell 26 January 2014 Assignment: Conditionals
+//John Spruell 26 January 2014 Assignment: Conditionals (Personal)
 
 
 //This calculator calculates if you have enough diapers and baby wipes on hand to support an baby's needs for a 24 hour period.

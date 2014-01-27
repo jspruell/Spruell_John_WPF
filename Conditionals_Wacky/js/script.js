@@ -1,4 +1,4 @@
-//John Spruell 26 January 2014 Assignment: Conditionals
+//John Spruell 26 January 2014 Assignment: Conditionals (Wacky)
 
 
 //This calculator calculates if you have enough Wood Walls to build a shelter in a video game.//
