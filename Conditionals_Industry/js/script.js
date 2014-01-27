@@ -1,12 +1,12 @@
 //John Spruell 26 January 2014 Assignment: Conditionals (Industry)
 
 
-//This calculator calculates if you have enough Wood Walls to build a shelter in a video game.//
+//This calculator calculates if you have enough administrators online to support a number of end users.//
 
-//User inputs ammount of Wood ceilings currently in his/her inventory
-var woodCeiling = prompt("How many Wood Ceilings do you have?");
-//User inputs ammount of Wood Walls currently in his/her inventory
-var woodWalls = prompt("How many Wood Walls do you have?");
+//User inputs ammount of administrators are currently online.
+var administrators = prompt("How many administrators do you have online?");
+//User inputs ammount of users are currently online.
+var users = prompt("How many users do you have online?");
 
 //if Ceiling is less than 1 and Walls is less than 4.
 
