@@ -8,9 +8,7 @@ var diapers = prompt("How many Diapers do you have?");
 //User inputs ammount of Baby Wipes currently in his/her home.
 var wipes = prompt("How many Packs of Baby Wipes do you have?");
 
-//if Ceiling is less than 1 and Walls is less than 4.
-
-
+//if diaper is less than 20 and wipes is less than 2
 if(diapers < 20) {
 	//code performed if Condition is True
 	console.log ("You Do Not Have Enough Diapers!")
