@@ -1,7 +1,7 @@
 //John Spruell 26 January 2014 Assignment: Conditionals
 
 
-//This calculator calculates if you have enough Wood Walls to build a shelter in a video game.//
+//This calculator calculates if you have enough diapers and wipes on hand to support an baby's needs for a 24 hour period.
 
 //User inputs ammount of Wood ceilings currently in his/her inventory
 var woodCeiling = prompt("How many Wood Ceilings do you have?");
