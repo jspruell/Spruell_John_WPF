@@ -14,12 +14,15 @@ var woodWalls = prompt("How many Wood Walls do you have?");
 if(woodCeiling < 1) {
 	//code performed if Condition is True
 	console.log ("You Do Not Have Enough for a Wood Shelter!")
+	alert ("You Do Not Have Enough for a Wood Shelter!")
 }else if(woodWalls < 4){
 	//code performed if condition is True
 	console.log ("You Need More Walls")
+	alert ("You Need More Walls")
 }else{
 	//code performed if Condition is False
 	console.log ("You Have Enough Walls and Ceiling to for a Wood Shelter!")
+	alert ("You Have Enough Walls and Ceiling to for a Wood Shelter!")
 } 
 	
 
