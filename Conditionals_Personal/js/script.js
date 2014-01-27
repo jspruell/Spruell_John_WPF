@@ -11,11 +11,11 @@ var wipes = prompt("How many Packs of Baby Wipes do you have?");
 //if Ceiling is less than 1 and Walls is less than 4.
 
 
-if(woodCeiling < 1) {
+if(diapers < 20) {
 	//code performed if Condition is True
-	console.log ("You Do Not Have Enough for a Wood Shelter!")
-	alert ("You Do Not Have Enough for a Wood Shelter!")
-}else if(woodWalls < 4){
+	console.log ("You Do Not Have Enough Diapers!")
+	alert ("You Do Not Have Enough Diapers!")
+}else if(wipes < 2){
 	//code performed if condition is True
 	console.log ("You Need More Walls")
 	alert ("You Need More Walls")
