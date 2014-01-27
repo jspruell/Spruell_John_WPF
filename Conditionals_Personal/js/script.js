@@ -17,12 +17,12 @@ if(diapers < 20) {
 	alert ("You Do Not Have Enough Diapers!")
 }else if(wipes < 2){
 	//code performed if condition is True
-	console.log ("You Need More Walls")
-	alert ("You Need More Walls")
+	console.log ("You Need More packs of wipes")
+	alert ("You Need More packs of wipes")
 }else{
 	//code performed if Condition is False
-	console.log ("You Have Enough Walls and Ceiling to for a Wood Shelter!")
-	alert ("You Have Enough Walls and Ceiling to for a Wood Shelter!")
+	console.log ("You Have Enough wipes and diapers to support a baby's needs")
+	alert ("You Have Enough wipes and diapers to support a baby's needs")
 } 
 	
 
