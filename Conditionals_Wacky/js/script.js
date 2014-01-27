@@ -3,7 +3,9 @@
 
 //This calculator calculates if you have enough Wood Walls to build a shelter in a video game.//
 
+//User inputs ammount of Wood ceilings currently in his/her inventory
 var woodCeiling = prompt("How many Wood Ceilings do you have?");
+//User inputs ammount of Wood Walls currently in his/her inventory
 var woodWalls = prompt("How many Wood Walls do you have?");
 
 //if Ceiling is less than 1 and Walls is less than 4.
@@ -11,7 +13,7 @@ var woodWalls = prompt("How many Wood Walls do you have?");
 
 if(woodCeiling < 1) {
 	//code performed if Condition is True
-	console.log ("You Do Not Have Enough Ceiling for a Wood Shelter!")
+	console.log ("You Do Not Have Enough for a Wood Shelter!")
 }else if(woodWalls < 4){
 	//code performed if condition is True
 	console.log ("You Need More Walls")
