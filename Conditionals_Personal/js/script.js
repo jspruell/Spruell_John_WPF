@@ -1,12 +1,12 @@
 //John Spruell 26 January 2014 Assignment: Conditionals
 
 
-//This calculator calculates if you have enough diapers and wipes on hand to support an baby's needs for a 24 hour period.
+//This calculator calculates if you have enough diapers and baby wipes on hand to support an baby's needs for a 24 hour period.
 
 //User inputs ammount of Wood ceilings currently in his/her inventory
-var woodCeiling = prompt("How many Wood Ceilings do you have?");
+var diapers = prompt("How many Diapers do you have?");
 //User inputs ammount of Wood Walls currently in his/her inventory
-var woodWalls = prompt("How many Wood Walls do you have?");
+var wipes = prompt("How many Packs of Baby Wipes do you have?");
 
 //if Ceiling is less than 1 and Walls is less than 4.
 
