@@ -17,6 +17,7 @@ if(administrators < 1) {
 	//code performed if condition is True
 	console.log ("You do not need an administrator online.")
 	alert ("You do not need an administrator online.")
+}else{
 	//code performed if Condition is False
 	console.log ("You Have Enough Walls and Ceiling to for a Wood Shelter!")
 	alert ("You Have Enough Walls and Ceiling to for a Wood Shelter!")
