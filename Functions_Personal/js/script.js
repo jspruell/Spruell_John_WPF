@@ -37,6 +37,25 @@ if(total = kidMax){
 
 
 
+//If you have two kids born on the same day, how many candles do you need for their birthday cakes?
+var kidOne = prompt("How old is kid One")//Age of kid one
+var kidTwo = prompt("How old is kid Two")//Age of kid two
+var onHand = prompt("How many candles do you have on hand?")
+var total = calcAge
+
+function calcAge(kidAge, kidTwo){
+	var total = kidOne + kidTwo
+	return total; //function sending kid One and Kid Two's age out
+}
+console.log(total);
+
+if(xxxxxxxx xxxxxxxx){
+	console.log("Just Old Enough to Get Out!")
+}else if(total < kidMax){
+	console.log("Looks Like You can't Kick them Out Just Yet")
+}else{
+	console.log("You should have kicked them out years ago!")
+}
 
 
 
