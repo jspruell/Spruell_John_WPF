@@ -1,13 +1,12 @@
 
 //This calculator calculates how any years you have left until you can kick your kids out
 
+var kidNumber = prompt("How Old is your Child?")//age of child in question
+var kidMax = prompt("How Old Do You Want Them to be When They Move Out?")//Prefered age of move out
 
-var kidNumber = prompt("How Old is your Child?")
-var kidMax = prompt("How Old Do You Want Them to be When They Move Out?")
-
-function getOut(years){
-	var getOut = kidMax - kidNumber; 
-	console.log(getOut);
+function calcLeave( ){
+	var timeToLeave = kidMax - kidNumber; 
+	return timeToLeave; //function sending the info out
 }
 
 var years = getOut;
