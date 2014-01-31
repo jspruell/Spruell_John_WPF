@@ -1,24 +1,34 @@
-//John Spruell 26 January 2014 Assignment: Conditionals (Personal)
+
+//This calculator calculates how any years you have left until you can kick your kids out
 
 
-//This calculator calculates if you have enough diapers and baby wipes on hand to support an baby's needs for a 24 hour period.
+var kidNumber = prompt("How Old is your Child?")
+var kidMax = prompt("How Old Do You Want Them to be When They Move Out?")
 
-//User inputs ammount of clean diapers in his/her home.
-var diapers = prompt("How many Diapers do you have?");
-//User inputs ammount of Baby Wipes currently in his/her home.
-var wipes = prompt("How many Packs of Baby Wipes do you have?");
+function getOut(age){
+	var getOut = kidMax - kidNumber; 
+	console.log(getOut);
+}
 
-//if diaper is less than 20 and wipes is less than 2
-if(diapers < 20) {
-	//code performed if Condition is True
-	console.log ("You Do Not Have Enough Diapers!")
-	alert ("You Do Not Have Enough Diapers!")
-}else if(wipes < 2){
-	//code performed if condition is True
-	console.log ("You Need More packs of wipes")
-	alert ("You Need More packs of wipes")
+var age = getOut;
+
+
+getOut(age);
+
+if(kidNumber > kidMax){
+	console.log("Looks Like You can't Kick them Out Just Yet")
+}else if(kidNumber < kidMax){
+	console.log("You should have kicked them out years ago!")
 }else{
-	//code performed if Condition is False
-	console.log ("You Have Enough wipes and diapers to support a baby's needs")
-	alert ("You Have Enough wipes and diapers to support a baby's needs")
-} 
+	console.log("Just Old Enough to Get Out!")
+}
+
+
+
+
+
+
+
+
+
+
