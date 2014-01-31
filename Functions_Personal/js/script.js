@@ -3,17 +3,17 @@
 
 var kidNumber = prompt("How Old is your Child?")//age of child in question
 var kidMax = prompt("How Old Do You Want Them to be When They Move Out?")//Prefered age of move out
+var total = calcLeave(kidMax, kidNumber);
 
-function calcLeave( ){
+function calcLeave(kidMax, kidNumber){
 	var timeToLeave = kidMax - kidNumber; 
 	return timeToLeave; //function sending the info out
 }
+console.log(total);
 
-var years = getOut;
-
-if(getOut = 0){
+if(total = kidMax){
 	console.log("Just Old Enough to Get Out!")
-}else if(getOut > 0){
+}else if(total < kidMax){
 	console.log("Looks Like You can't Kick them Out Just Yet")
 }else{
 	console.log("You should have kicked them out years ago!")
