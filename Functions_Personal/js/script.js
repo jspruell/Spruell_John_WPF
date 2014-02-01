@@ -1,3 +1,15 @@
+//This calculator calculates how any years you have left until you can kick your kids out
+
+/*function calcArea (){
+	var width= 20;
+	var height = prompt("What is the height?");
+	var area = width * height;
+	console.log(area);
+}
+
+calcArea();
+calcArea();
+*/
 
 //This calculator calculates how any years you have left until you can kick your kids out
 
@@ -56,9 +68,6 @@ if(xxxxxxxx xxxxxxxx){
 }else{
 	console.log("You should have kicked them out years ago!")
 }
-
-
-
 
 
 
