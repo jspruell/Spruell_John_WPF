@@ -1,24 +1,27 @@
-//John Spruell 26 January 2014 Assignment: Conditionals (Personal)
+//This calculator lets you know if you have enough space to add more files to your web server
 
 
-//This calculator calculates if you have enough diapers and baby wipes on hand to support an baby's needs for a 24 hour period.
+var total = calcSpaceDiff();//variable of total created with data that is sent from the function
 
-//User inputs ammount of clean diapers in his/her home.
-var diapers = prompt("How many Diapers do you have?");
-//User inputs ammount of Baby Wipes currently in his/her home.
-var wipes = prompt("How many Packs of Baby Wipes do you have?");
+function calcSpaceDiff (driveSpace, updateSize){//function name, and variables involved
+	var driveSpace= prompt("How much space do you have in Mb");//user inputs how much space the user has available
+	var updateSize = prompt("How large is the update in Mb?"); //user inputs how large the update is
+	var spaceDiff = driveSpace - updateSize;  //calculates a value for value of spaceDiff
+	return spaceDiff;//sends the information out of the function
+}
+console.log(total);//displays in the console the value of the var total which is derived from the calculations of the function
 
-//if diaper is less than 20 and wipes is less than 2
-if(diapers < 20) {
+
+if(total == 0) {
 	//code performed if Condition is True
-	console.log ("You Do Not Have Enough Diapers!")
-	alert ("You Do Not Have Enough Diapers!")
-}else if(wipes < 2){
+	console.log ("Just enough space to install the update!")//provides info to the console if the if is followed
+	alert ("Just enough space to install the update!")//notifies user of result
+}else if(total > 0){
 	//code performed if condition is True
-	console.log ("You Need More packs of wipes")
-	alert ("You Need More packs of wipes")
+	console.log ("You have plenty of space, go ahead and proceed")//provides info to the console if the else if is followed
+	alert ("You have plenty of space, go ahead and proceed")//notifies user of result
 }else{
 	//code performed if Condition is False
-	console.log ("You Have Enough wipes and diapers to support a baby's needs")
-	alert ("You Have Enough wipes and diapers to support a baby's needs")
+	console.log ("You are going to have to clear some space")//provides info to the console if the else is followed
+	alert ("You are going to have to clear some space")//notifies user of result
 } 
