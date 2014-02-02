@@ -12,13 +12,16 @@ function calcKidDiff (kidAge, kidMoveout){
 console.log(total);
 
 
-if( total = 0){
-	console.log("Just Old Enough to Get Out!")
-}
-else if( total < 0){
-	console.log("Looks Like You can't Kick them Out Just Yet")
-}
-else{
-	console.log("You should have kicked them out years ago!")
-}
-
+if(total == 0) {
+	//code performed if Condition is True
+	console.log ("Just Old enough to move out!")
+	alert ("Just Old enough to move out!")
+}else if(total > 0){
+	//code performed if condition is True
+	console.log ("He should have already been kicked out")
+	alert ("He should have already been kicked out")
+}else{
+	//code performed if Condition is False
+	console.log ("Looks like you are stuck with them for a little while longer!")
+	alert ("Looks like you are stuck with them for a little while longer!")
+} 
