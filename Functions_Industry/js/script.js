@@ -1,13 +1,13 @@
 //This calculator lets you know if you have enough space to add more files to your web server
 
 
-var total = calcKidDiff();//variable of total created with data that is sent from the function
+var total = calcSpaceDiff();//variable of total created with data that is sent from the function
 
-function calcKidDiff (kidAge, kidMoveout){//function name, and variables involved
-	var kidAge= prompt("How Old is your Kid?");//user inputs current age of the kid
-	var kidMoveout = prompt("When  do you want your kid to move out?"); //age that user would like the kid to move out
-	var kidDiff = kidAge - kidMoveout;  //calculates a value for value of kidDiff
-	return kidDiff;//sends the information out of the function
+function calcSpaceDiff (driveSpace, updateSize){//function name, and variables involved
+	var driveSpace= prompt("How much space do you have in Mb");//user inputs how much space the user has available
+	var updateSize = prompt("How large is the update in Mb?"); //user inputs how large the update is
+	var spaceDiff = driveSpace - updateSize;  //calculates a value for value of spaceDiff
+	return spaceDiff;//sends the information out of the function
 }
 console.log(total);//displays in the console the value of the var total which is derived from the calculations of the function
 
