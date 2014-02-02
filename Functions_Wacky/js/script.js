@@ -4,8 +4,8 @@
 var total = calcSpaceDiff();//variable of total created with data that is sent from the function
 
 function calcSpaceDiff (driveSpace, updateSize){//function name, and variables involved
-	var driveSpace= prompt("How much space do you have in Mb");//user inputs how much space the user has available
-	var updateSize = prompt("How large is the update in Mb?"); //user inputs how large the update is
+	var driveSpace= prompt("How many cups of coffee do you need for your shift?");//user inputs how much space the user has available
+	var updateSize = prompt("How much coffee have you already made?"); //user inputs how large the update is
 	var spaceDiff = driveSpace - updateSize;  //calculates a value for value of spaceDiff
 	return spaceDiff;//sends the information out of the function
 }
