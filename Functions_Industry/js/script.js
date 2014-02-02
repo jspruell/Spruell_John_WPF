@@ -1,4 +1,4 @@
-//This calculator lets you know if your kid is available to be kicked out of the house yet
+//This calculator lets you know if you have enough space to add more files to your web server
 
 
 var total = calcKidDiff();//variable of total created with data that is sent from the function
@@ -14,14 +14,14 @@ console.log(total);//displays in the console the value of the var total which is
 
 if(total == 0) {
 	//code performed if Condition is True
-	console.log ("Just Old enough to move out!")//provides info to the console if the if is followed
-	alert ("Just Old enough to move out!")//notifies user of result
+	console.log ("Just enough space to install the update!")//provides info to the console if the if is followed
+	alert ("Just enough space to install the update!")//notifies user of result
 }else if(total > 0){
 	//code performed if condition is True
-	console.log ("He should have already been kicked out")//provides info to the console if the else if is followed
-	alert ("He should have already been kicked out")//notifies user of result
+	console.log ("You have plenty of space, go ahead and proceed")//provides info to the console if the else if is followed
+	alert ("You have plenty of space, go ahead and proceed")//notifies user of result
 }else{
 	//code performed if Condition is False
-	console.log ("Looks like you are stuck with them for a little while longer!")//provides info to the console if the else is followed
-	alert ("Looks like you are stuck with them for a little while longer!")//notifies user of result
+	console.log ("You are going to have to clear some space")//provides info to the console if the else is followed
+	alert ("You are going to have to clear some space")//notifies user of result
 } 
