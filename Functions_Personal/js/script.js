@@ -1,19 +1,21 @@
 //This calculator
 
-function calcKidDiff (){
+
+var total = calcKidDiff();
+
+function calcKidDiff (kidAge, kidMoveout){
 	var kidAge= prompt("How Old is your Kid?");
 	var kidMoveout = prompt("When  do you want your kid to move out?");
 	var kidDiff = kidAge - kidMoveout;
-	console.log(kidDiff);
+	return kidDiff;
 }
+console.log(total);
 
-calcKidDiff();
 
-
-if( calcKidDiff > 0){
+if( total = 0){
 	console.log("Just Old Enough to Get Out!")
 }
-else if( calcKidDiff < 0){
+else if( total < 0){
 	console.log("Looks Like You can't Kick them Out Just Yet")
 }
 else{
