@@ -1,13 +1,13 @@
 //This calculator lets you know if you have enough coffee left over to keep you awake for a 12 hour shift
 
 
-var total = calcSpaceDiff();//variable of total created with data that is sent from the function
+var total = calcCoffeeDiff();//variable of total created with data that is sent from the function
 
-function calcSpaceDiff (coffeeReq, coffeeMade){//function name, and variables involved
-	var coffeeReq= prompt("How many cups of coffee do you need for your shift?");//user inputs how much space the user has available
-	var coffeeMade = prompt("How much coffee have you already made?"); //user inputs how large the update is
-	var spaceDiff = coffeeReq - coffeeMade;  //calculates a value for value of spaceDiff
-	return spaceDiff;//sends the information out of the function
+function calcCoffeeDiff (coffeeReq, coffeeMade){//function name, and variables involved
+	var coffeeReq= prompt("How many cups of coffee do you need for your shift?");//user inputs how much coffee is needed for the shift
+	var coffeeMade = prompt("How much coffee have you already made?"); //user inputs much coffee he/she already has
+	var coffeeDiff = coffeeReq - coffeeMade;  //calculates a value for value of coffeeDiff
+	return coffeeDiff;//sends the information out of the function
 }
 console.log(total);//displays in the console the value of the var total which is derived from the calculations of the function
 
